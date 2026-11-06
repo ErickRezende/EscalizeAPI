@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: musicsapi
+
+  mongodb:
+    uri: ${MONGODB_URI}
