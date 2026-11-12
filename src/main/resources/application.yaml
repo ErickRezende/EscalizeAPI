@@ -4,3 +4,10 @@ spring:
 
   mongodb:
     uri: ${MONGODB_URI}
+
+  profiles:
+    active: local
+
+
+jwt:
+  secret: ${JWT_SECRET}

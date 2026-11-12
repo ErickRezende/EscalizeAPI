@@ -24,6 +24,5 @@ public class User {
     private Boolean admin;
     private List<String> roles;
 
-    @Deprecated
     public User() {}
 }

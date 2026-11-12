@@ -1,3 +1,5 @@
 spring:
   mongodb:
     uri: mongodb+srv://USUARIO:SENHA@SEU-CLUSTER.mongodb.net/NOME_DO_BANCO
+jwt:
+  secret: senha_jwt
